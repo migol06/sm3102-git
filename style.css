@@ -1,0 +1,25 @@
+@media(min-width: 768px) {
+    h1 {
+        color: blue;
+    }
+}
+
+@media(min-width: 768px) {
+    .box {
+        background-color: red;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    .box {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.title {
+    color: red;
+}
